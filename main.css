@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: black;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color:blueviolet;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+a:active {
+    color: brown;
+}
+
+a:visited {
+    color:rgba(150, 34, 90, 0.25)
+}
+
+.myphoto {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+.info-text h1 {
+    margin-bottom: 50px;
+}
+
+.info p {
+    color: grey;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.card {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.c-1 {
+    background: yellowgreen;
+}
+
+.c-2 {
+    background: rgb(5, 63, 97);
+    text-align: center;
+}
+
+.c-3 {
+    background: rgb(193, 177, 194);
+}
+
+.c-4 {
+    background: rgb(4, 101, 192);
+}
+
+.c-4 > a {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.c-4 > a:hover {
+    font-size: 20px;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+}
+
+.list > li {
+    margin-bottom: 10px;
+    color: rgb(4, 101, 192);
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.table td:nth-child(1) {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: white;
+}
+
+.link-list {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.link-list > li > a {
+    color: white;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact-group label {
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contact-group input, .contact-group textarea {
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    padding: 5px;
+    font-family: inherit;
+    background: transparent;
+    border-bottom: 2px solid rgba(1, 11, 22, 0.884);
+}
+
+#submit {
+    background: rgba(122, 174, 233, 0.25);
+    border-radius: 4px;
+    font-weight: bold;
+    border: 3px solid rgba(0, 0, 0, 0.877);
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.roll {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.roll .contact-group {
+    width: 50%;
+}
+
+.contact-group {
+    text-align: center;
+}
+
+.input-submit {
+    text-align: center;
+}
+
+/* Position */
+/*
+.position {
+    background: red;
+    display: flex;
+    padding: 5px;
+}
+
+
+.box {
+    width: 100px;
+    height: 50px;
+    background: yellowgreen;
+    padding: 20px;
+    border: 3px solid black;
+    margin-right: 5px;
+}
+*/
+
+/*
+    .social {
+    background-color: yellowgreen;
+    padding: 5px 10px;
+    border: 5px solid black;
+}
+    .box-model {
+        float: left;
+        height: 200px;
+        width: 25%;
+        background: black;
+        box-sizing: border-box;
+    }
+*/
